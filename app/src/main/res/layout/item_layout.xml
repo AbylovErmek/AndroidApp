@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="25 марта"
+        android:text="20 марта"
         android:textSize="24sp"
         android:textStyle="bold"
         android:id="@+id/date"
@@ -41,7 +41,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/nameTxt"
         app:layout_constraintTop_toTopOf="@id/nameTxt"
-        tools:text="Анарбек" />
+        tools:text="Бушер" />
 
     <TextView
         android:id="@+id/numberTxt"
@@ -65,7 +65,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/numberTxt"
         app:layout_constraintTop_toTopOf="@id/numberTxt"
-        tools:text="509988686"/>
+        tools:text="705325366"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

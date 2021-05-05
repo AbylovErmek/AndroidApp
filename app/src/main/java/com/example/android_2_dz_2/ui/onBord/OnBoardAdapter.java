@@ -19,12 +19,10 @@ public class OnBoardAdapter extends RecyclerView.Adapter<OnBoardAdapter.OnBoarVi
 
     public interface OnStartClickListener {
         void onClick();
-
         void onClicker();
     }
 
     public OnStartClickListener onStartClickListener;
-
     public void setOnStartClickListener(OnStartClickListener onStartClickListener) {
         this.onStartClickListener = onStartClickListener;
     }
@@ -49,14 +47,10 @@ public class OnBoardAdapter extends RecyclerView.Adapter<OnBoardAdapter.OnBoarVi
     }
 
     public class OnBoarViewHolder extends RecyclerView.ViewHolder {
-
         LottieAnimationView lottieAnimationView;
-
 
         public OnBoarViewHolder(@NonNull View itemView) {
             super(itemView);
-
-
             lottieAnimationView = itemView.findViewById(R.id.image_pager);
         }
 

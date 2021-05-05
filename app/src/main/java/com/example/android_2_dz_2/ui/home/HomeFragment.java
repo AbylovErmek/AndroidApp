@@ -94,7 +94,7 @@ public class HomeFragment extends Fragment implements Listen {
     }
 
     //    public void Green(){
-//        homeAdapter.addElement(new HomeModel("Anarbek", "509988686", id))
+
     @Override
     public void setDataForForm(HomeModel homeModel, int position) {
         Bundle bundle = new Bundle();
